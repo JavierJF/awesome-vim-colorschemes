@@ -419,6 +419,8 @@ hi! link diffAdded Special
 " This is needed for some reason: {{{
 
 let &background = s:style
+" Avoid color colision of background with GitGutter mark
+hi GitGutterDelete guifg=#ff2222
 
 " }}}
 " Legal:"{{{
