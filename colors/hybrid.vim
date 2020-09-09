@@ -311,7 +311,8 @@ exe "hi! PmenuSel"      .s:fg_foreground  .s:bg_selection   .s:fmt_revr
 "   PmenuSbar"
 "   PmenuThumb"
 exe "hi! Question"      .s:fg_green       .s:bg_none        .s:fmt_none
-exe "hi! Search"        .s:fg_background  .s:bg_yellow      .s:fmt_none
+"exe "hi! Search"        .s:fg_background  .s:bg_yellow      .s:fmt_none
+":hi Search guibg=guifg=NONE
 exe "hi! SpecialKey"    .s:fg_selection   .s:bg_none        .s:fmt_none
 exe "hi! SpellCap"      .s:fg_blue        .s:bg_darkblue    .s:fmt_undr
 exe "hi! SpellLocal"    .s:fg_aqua        .s:bg_darkcyan    .s:fmt_undr
@@ -328,6 +329,7 @@ exe "hi! Visual"        .s:fg_none        .s:bg_selection   .s:fmt_none
 exe "hi! WarningMsg"    .s:fg_red         .s:bg_none        .s:fmt_none
 " FIXME LongLineWarning to use variables instead of hardcoding
 hi LongLineWarning  guifg=NONE        guibg=#371F1C     gui=underline ctermfg=NONE        ctermbg=NONE        cterm=underline
+hi Search           guifg=NONE        guibg=#3a3e40
 "   WildMenu"
 
 " Use defined custom background colour for terminal Vim.
