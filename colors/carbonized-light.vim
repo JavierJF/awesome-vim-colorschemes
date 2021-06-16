@@ -23,6 +23,7 @@ let s:gB = '219e21'
 let s:gC = '1b9e9e'
 let s:gD = '468dd4'
 let s:gE = 'a26fbf'
+let s:gG = 'e6daed'
 let s:gF = 'd46a84'
 
 " terminal colours
@@ -216,7 +217,7 @@ cal <sid>h('Delimiter'        , s:gE , ''   , s:tE , ''   , 'none'      , ''  )
 cal <sid>h('Special'          , s:gE , ''   , s:tE , ''   , 'none'      , ''  )
 cal <sid>h('SpecialChar'      , s:gE , ''   , s:tE , ''   , 'none'      , ''  )
 cal <sid>h('SpecialComment'   , s:gE , ''   , s:tE , ''   , 'none'      , ''  )
-cal <sid>h('SpecialKey'       , s:gE , ''   , s:tE , ''   , 'none'      , ''  )
+cal <sid>h('SpecialKey'       , s:gG , ''   , s:tE , ''   , 'none'      , ''  )
 cal <sid>h('SpellRare'        , ''   , ''   , s:t0 , s:tE , 'undercurl' , s:gE)
 cal <sid>h('Tag'              , s:gE , ''   , s:tE , ''   , 'none'      , ''  )
 
