@@ -11,7 +11,7 @@ let colors_name = "pyte"
 if version >= 700
   hi CursorLine guibg=#f6f6f6
   hi CursorColumn guibg=#eaeaea
-  hi MatchParen guifg=white guibg=#80a090 gui=bold
+  hi MatchParen guifg=#80a090 guibg=white gui=bold
 
   "Tabpages
   hi TabLine guifg=black guibg=#b0b8c0 gui=italic
@@ -91,4 +91,5 @@ hi DiffText guifg=NONE guibg=#f0c8c8 gui=italic,bold
 hi DiffAdd guifg=NONE guibg=#c0e0d0 gui=italic,bold
 hi DiffDelete guifg=NONE guibg=#f0e0b0 gui=italic,bold
 
+highlight GitGutterChange ctermfg=2 ctermbg=248 guifg=#68196b guibg=Grey
 

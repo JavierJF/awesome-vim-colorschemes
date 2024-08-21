@@ -72,6 +72,9 @@
 " vimrc resourcing
 " hi clear
 
+set background=dark
+
+hi clear
 if exists("syntax_on")
   syntax reset
 endif
@@ -92,7 +95,7 @@ if exists("g:hybrid_reduced_contrast") && g:hybrid_reduced_contrast == 1
   let s:gui_line       = "#2d3c46"
   let s:gui_comment    = "#6c7a80"
 else
-  let s:gui_background = "#1d1f21"
+  let s:gui_background = "#111214"
   let s:gui_selection  = "#373b41"
   let s:gui_line       = "#282a2e"
   let s:gui_comment    = "#707880"
@@ -334,7 +337,7 @@ hi LongLineWarning  guifg=NONE        guibg=#371F1C     gui=underline ctermfg=NO
 hi Search           guifg=NONE        guibg=#3a3e40
 "   WildMenu"
 
-" Use defined custom background colour for terminal Vim.
+" Use defined custom bdarkackground colour for terminal Vim.
 if !has('gui_running') && exists("g:hybrid_custom_term_colors") && g:hybrid_custom_term_colors == 1
   let s:bg_normal = s:bg_none
 else
